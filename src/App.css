@@ -1,0 +1,58 @@
+* {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+.logoBlock {
+    width: 100%;
+    background-color: black;
+    display: block;
+    color: white;
+    padding: 5px;
+}
+
+.searchBlock {
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+
+.p.overview  {
+  font-size: 0.9em;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-content: flex-end; */
+  align-items: stretch;
+  
+}
+
+.column {
+  flex-basis: 43%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  align-self: center;
+ 
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.column {
+  flex-basis: 100%;
+ 
+}
+ 
+}
+
+
